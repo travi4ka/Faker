@@ -1,11 +1,13 @@
 package tests;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static testData.TestData.*;
 
 public class Tests extends TestsBase {
     @Test
+    @Tag("example")
     public void fillOutForm() {
         automationPracticeFormPage
                 .openPage()
